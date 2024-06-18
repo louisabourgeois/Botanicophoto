@@ -1,0 +1,66 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: center; /* Center text by default */
+}
+
+/* Headings */
+h1, h2, h3, h5 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ddd !important;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
+
+.carousel-caption h5, .carousel-caption p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center; /* Center text */
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+#home {
+    background: #f8f9fa;
+}
+
+#about, #services, #contact {
+    background: #fff;
+}
+
+section h2 {
+    margin-bottom: 40px;
+}
+
+section p {
+    max-width: 400px}
